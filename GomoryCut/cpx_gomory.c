@@ -435,6 +435,8 @@ int main(int argc, char* argv[]) {
    MyRow rows[MAX_N_ROWS];
    int i = 0;
 
+   argc = 2;
+   argv[1] = "D:\\GitHub\\MyBlogEntries\\GomoryCut\\example.mat";
    if (argc != 2) {
 #ifdef _WIN32
       fprintf(stdout, "\nUsage:\n GomoryCut.exe example.mat\n\n");
